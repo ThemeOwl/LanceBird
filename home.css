@@ -1,0 +1,72 @@
+.home {
+  margin: 1.3em 1em;
+}
+.home-box {
+  width: 90%;
+  height: 5em;
+  background: white;
+  margin: 0.6em;
+  border-radius: 2em 0 2em 0;
+
+  background: #e0e0e0;
+  box-shadow: inset 5px 5px 10px #bcbcbc, inset -5px -5px 10px #ffffff;
+}
+.trend,
+.search,
+.browse,
+.about,
+.contact {
+  margin: 2.5em 1.5em;
+}
+.home-1 {
+  width: 93%;
+  margin: 0 0 0 7%;
+  height: 35em;
+  background: url("images/ill-1.png") no-repeat bottom right;
+  background-size: 75% 85%;
+}
+
+.head-box {
+  margin: 3em 0 0 3em;
+  width: 45%;
+  font-size: 2em;
+  color: #3f3d56;
+}
+.head-box h1 {
+  font-family: "Kanit", sans-serif;
+}
+.head-box h1 span {
+  font-family: "Monoton", cursive;
+}
+.head-line {
+  background: #4d1679;
+  width: 50%;
+  height: 0.2em;
+}
+.find {
+  margin: 3em 0 0 5em;
+  width: 200px;
+  height: 70px;
+  background: #4d1679;
+  color: white;
+  border: none;
+  box-shadow: 5px 6px 20px 5px rgba(0, 0, 0, 0.19);
+  font-size: 1.2em;
+}
+.find:hover {
+  margin: 2.9em 0 0 5em;
+
+  box-shadow: 5px 6px 20px 5px rgba(0, 0, 0, 0.329);
+  transition: ease-in-out 0.2s;
+}
+.policy {
+  margin: 0 0 0 75%;
+}
+.policy li {
+  float: left;
+  padding: 0 1em;
+  color: #3f3d56;
+}
+.policy li a {
+  color: #3f3d56;
+}

@@ -1,0 +1,141 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theme_1</title>
+    <link rel="shortcut icon" type="image/png" href="Images/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="trend.css" />
+    <script
+      src="https://kit.fontawesome.com/d9b2224f7d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="search.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="home.html"
+        ><img
+          class="home"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAACGUlEQVRYhe2Yz0tUURiG369fhE1GCa5EqLBFQSW4zVZt1JXYwkVE/4KUbaNFVGTQfxEShFDRrkWJUiCEqygQcVMRBWoZaPO06Fw6jefOeO+540jcF4YP5vvO+z535sy5zJVK/eeyooyA/ZKuSton6ZaZ/SzKO1pAFzDLX80BR1vNJUkCzgMf2awvwIVWghkwDmx4UA/cK9GGmylsK20VrgJMeiBrwBWvPwqsev0p4NB2wfUA8174ItAXmDsNfPDm3gGnmg03BHzzQp8Bh+vMtwOPvfllYKQZYAZcB365oCpwG9gVsXZ3UXAdwPOaT2E4h88g8NXzeQF0xsL1Ague6TzQE+FXu38XgN68Zv3Aimf2EKjkhfN8K84r0QpwLqtJB/DZGawDY7FggYwx5w3wCTiSZfFN7wovFQ3n5Vz2cm5kWZjsk+lmwXlZMy7rbaifdkwcc/VVc7D+0UtXj4eaaYBtrq4VjrNZP1w9EGo2PGhbrRIwVntiDYBuSYOS2mtay5KemNlSjH8UINAv6amktDvMHWDAzHKfBrFf8X2lw0nSQTeTW7GAZ1y9ZzWSNOF6Z2MCYgGTLfI90Ft1dW9MwI7/FZeAsSoBY7XjAdPuJFX9gb8InNyCT7Xee8BknbXJn/mQR1jAG7JpIOAxlNHjdYgl+FAHOCHprqSuBteyLumRmU2EmsA1ScNqfFgvSRo3s/cN5kqV2nb9BqYLi8OBpqSNAAAAAElFTkSuQmCC"
+      /></a>
+      <a href="#">
+        <img
+          class="search openBtn"
+          onclick="openSearch()"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAACRElEQVRYhe2XzU4UQRSFTxFWLmSYRMYRNRGIxvAQEliY8BRGfQB+HsAX8RUQQiJRXDiy0YULNyhGg4lIdGbihoUrx89FN7G4do/T1aVjtM/qdvetU1935datlir943JFkoGmpEVJlyRNprcPJe1L2nLOfYqLNzjYArAD9MhXL82Z/5NgNWCzD1SeNoBaDIbcJQamJW1Jumwe9SS9lHSQXl+QNCtpxOS9lrTonNuPAWrhasCe+SptYAk4k5E/ASwDHTNmL9aXtBPaZX0wyETAOPDQjF2PDbeQATdaYPwosG085mIC7phlLbxEQB3oej6tWHBNTm4lSyW8VjyfHtCIAXjTM/1KRkEU8GqYl70R4mO3hmkv3nXOdUMBnXNtJdvRsWZCfCzgOS8+DDE0+uDFzRADC4gXF+rTOfI9yM3qIwv40YsnVV7nvTjoIGEB33rxLDARYiolRSLpqnfrTaiXb3rWVN5yCa/V6NtMavzEM+4A4wEedqN+HAUuNZ83bWqb4q3ukfG4Fg0wnWQjA7I+wLh6BtxaVLh0oqzjVpekff1UOCRdY9UsK8BnYKwMS78D65SSA+sV8+ibpFeS3qfXF5VUq90Rvkg6paR6X0g6krTinDsqA2wha8A6xbVGsiO0zf3nBBTdIKBzQItf/zS18AoCuJeRVwiy6G9nQ8lv55R+dIkDSe8k3XfOdUz+XUm3MqyeSboedblDBJwGnuZ88d+z3BVkBVlBDh/y9rD5JOVC3hk21wkZyL8L7lgpZFa3qfR/6DsytzSua+M84QAAAABJRU5ErkJggg=="
+      /></a>
+      <div class="trend-box">
+        <a href="trend.html"
+          ><img
+            class="trend"
+            src="data:image/png;base64,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"
+        /></a>
+      </div>
+      <a href="browse.html"
+        ><img
+          class="browse"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAAE2ElEQVRYhd2YXWiWZRjH//e7wLZl4cpM3ZyzaB9R5AShAkNrK/qi42IoFhiNOiszC6RO0w4SgtI6s84UmgV21IkRrS0y2gfY3IflVrrAfWnqr4P7evbee/Y8z7t3rwPpgpfrea+v+39/X/cl3eDkSg0ArJdUL2mdpFtMfFHSkKR+59yZUtsoFlAOaAE+B0YoTCPAZ8DjQG4pgZUBO4F+a/gqMG3fF4D3TNdv3+OmmzZbgD5gB1B2vcFtArqCEXkDeBG4DJwC6syuE+i07w2mu2y2bwJnLUYn0Hy9wL0OXAImgN1AOVAFjFmD1YHtLED7Xw38AYyaT4XFmARmgPZSgDngQ+txF9AQ6A6avDXmMwegyZ4w24OBrCGYkQNA8Zs1ANcBlAfyGuBf4GiCzzyAJj9qPjWBrBw4bm3sLxbca8F6Wx3T7TPd5iIAbjaffTH5mmBdLmy6bUNcsnUCMAUcBlqt1yNAV4pvIkDTdQHDwDLgMeBTi42t7xlgYyFwZRZo2tbJVpviKxYoAt0BPAvcQ3BkxAFavLuBp80H4KLxqzbFjwKNBvBHss5K/DkHsCcmvxPYBZwmmf4BBmxEpoDfTZZEA8CrwF2xNvaafnsod4FBTlKvpOWS6pxzMwkdOClppaTnJDXJX3E1kqokrZD0sJmelDRuv2FJfZJ6JB2TNOaceyQh9s2SBs2nyTl3LW7QYj14O2V0y2ytfJGkN5vUNWj6Ly1G4jQC7xiGbZEsNHxB0jVJh1Pi10uqlNSdBmAB1G0x7k3RH5KEYZkHsEXST8650RTnJuO/lADwlPHGJKVz7pykLkmzF0BOkoBaSWslncgIfofxsRIAnjO+MsPmhKQa7FCPRjDqUW+GYwTwr0XDk87HYiVRn/EGKQ9wrfGhDMcq4xcWBc3T38azAA4Yr5Gkm+zPcuMfA9MpjrXGvwPSgjdKfjcXANoGbEnRRff+rdLcTXLjEvCSnT9pvRI+LQKozLApdA5WWowDGTZbzGanlB/BEeO1yW6S8gv89gybQhTt3qyNVmd8SMoDjHZvfYbjQnZgIYo6dz7DJsLQJxlA59yg/Ci2pjhJ+R24qgSAUYKQNYKtkoacc8OzAI2+lbQJSAPwm/EHSgB4v/GeJKVlOM0KLowQ4BH7/3JK8D5Jk5Kyk8psapY0Iak/Rb9LPsM6Egni6VaPpNskrS+Qbj0vf+Y1SqqWT7VWSHrITL/X3HSrR34GvpI0mpJulUs6I38R3Dcv3TKjHbbF98bka4B2SzaTaNyS1DBhHU+xPY1PflfF2njX9G0pozub83Xi0+9GfMr/DfnKQJSudwBP4R/nucA/nvLn8Cn/M+RT/ujZcAWf8m8jn/L/QKHyCNBsxhNBwE/wD51l+IfPYh9NI/iHVyv+ITYVtDENPJgJLgjWbo5nWdpn52ryBahXFgQucI6utuOU/nA/xvyHewXwtbXxQVHgLIAD9luAbhZf+njSbD8KZI3AzxE4FlP6CIK125qcxBd+KvCFoFF8YSireFQD/Mnc4tGeYM0VN60ZIDfiH9XRutzN3PLbhjhA/O79lXz57S3rEPjdurANUQTIHLAd6LVGwgLmOHMLmO+TXMDsAdpY4kprDn92HQKGKEyDZrt1McCuRxF9nfJF9OjpEBXRe6Os5H9L/wH6Islz68JFIAAAAABJRU5ErkJggg=="
+      /></a>
+      <a href="about.html"
+        ><img
+          class="about"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAACa0lEQVRYhe2WO2gUURSG/8laaFBhFWMSIUIUMSQ+ULEUkYBaaBBsbdLYCOnEgIVdhGAjgo2F2FkIEVIIFhuj2AiCYGEUxchGxUcRiw3ohs9iD3jM7s5rx13F/WGZc3bO+e83d2buXKmttv5jAceBq8CxVrNUCRgCylRUBgZr1XU0G8xpu6ScxTnL/x4Ba4BHNoMPgdWtZqopYGOrGf5N8bsK9epWpTTfL+mUpAFJnZI+SJqRNBUEwbc0npkI2AJMU1+fgdGYXpeB+agZTAK3A1hwMGXgOfDYwLwmY3oWMgEEOoE5B3Ad6HbnO4ATbkaIM5NZAo67gS+E1PU4yE/AumYBvjajJ0AQUTviLuZMo4CRnzpgq6R+S28FQUBEy7SkrxYfjvKPUpxvcY+LX0YVB0GwLOmVpb316oBhSXlL85ZXKc46uOji0GfKaX2N3pW67+I9llc9PnFmcF7Sd4uPRBUDvZJ2WjoXw79xAXfsYS4B/RG1N9xLMhRSN7zy1wjgQX5tLl8A22rUdAAXHdxU6gFTQl5yg5dssT5NZds+Bjx154t2q5sr4CbRKgEDzQbLG9xyDECAN8DJLMYO/SoY3C5VFt8+++uHpIKke5LeSlqS1CXpgKQRV4ekK5LOx1jc0wkYBL64mblNyFsM5IBR4KPrufan4NZSeWOxWzuWoLcPeOYgY+0RkwJOuAHGU/R3A++sfxHYnCXcBmDJzGeJ2MGE+Bx1FzmRJeA5Z3yoQa8Z83kP5KI74pneNdNi2tlzXmfdxe5O2l9vs7DXjrMZLBEPXLwvaXM9wE12XEiMU62ii7sy8Gurrba8fgLHEBqqwQ4+5QAAAABJRU5ErkJggg=="
+      /></a>
+      <a href="contact.html"
+        ><img
+          class="contact"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAAD3ElEQVRYhe2YbWiVZRjH/7dnb7qt4bBU2HRp1kiMqC9qX8JCJYhapeiQdO3DCiICWdEHoY8RooLTFDQIfBlTShK/REzoheFbsFzmRoNNG9jcSgXNNrefH57rdB6Pz9mel7Og6ILDfZ77uq//9Xte7lfpf/uPm4sbCDwoaZmkpyQtlDRH0gPmviHpiqReSeckdTjnhpKhhoMqB94CvgXGuNeGgAvAz/bfb3eAb4AmoGyqwD4ErlvCQeAw0AgsAAoDYgrN12htr1rsNWBL3kCBF4FfTfwnYBNQFEOnCHjDnjDAJeCFJGAp4GNgHPgdqAemxRbM6E4DNgB/mPZHQCqqSAHwmd1pO1CVFCwgRzVw0nK0Bn0muQKdD+4IUJBvOF+uFHDQcn0aNmizBRyNAmfJHrJf6OHLOtMXlvOdyRovBm4Dp8N2BGAmsAsY9g0rQ8BWYEZIjWLgB+BP4LGJGp4ARoDakMIVwHmDugDsBQ4A/VbXAUwPqbUYGAW+zNXgSRNtCSNoMTstZp+/JwKlQJf53oug94nFPBHk3I03OywMKZbCG37GgLkB/iZL9n0EwEV4Q09LtsMBlyOKLTCA/hz+18x/MaymxZ0CLqWv0wPvPElVkr6OoNUvqVLSkhz+NVb2RAGU9JWkaqD67xpgtd3tqxHFAs33ev8ClkWMXWOxq6TME5xl5WAe4F6XtFvSmKQG51xHRInf/ExpwPSAPJoQboWkfXa50Tl3KIbMiJWFfrBrVs5MAOck7THhZufcwZhSaYbrUuYJ9lkZaoDOYUskLZK3it6WQCc9k/RKGcAuSbckLU8gXGNlp3NuPIHOM8bSfU8tcAy4CZTGUQUqgaeBh+OS2Qx0Azge5Ex374lXFFNowJvGsDbImQIuAgNAeQzxtTb1nYwJV2qzWR+5Fq9And3BnhgJNljs2ZiAOyx+/WQND1vDTRETzLfP5PkYcPW2SAheamU1Lgc6bZp6JWqyGHAv460DfwFmTR7hBVUBPXgb7renEG4j3gp+AHg0avBs4Iy97jagMo9glaYJ0A08EleoGNhvQg15AKsA3geumGYrUJFUtN7EVmTVFxFi1wdMB1YC28kcnXQDL4XJH2Zb+ay8pVOnL2mBpDZJzwFdks5LGpA3wY9LKpNULW9uXyqpxEJPSWqR1OqcuxMGcEIDSvCOKNp9deVk9rHf4Z21jHK/jeENup8D7xJyrxMVsNmSrbPrOuvd43jnNs7qi4G5QC3wOFADFOcdKAtutn0zN+376THYq+Rpa5AU8EDWK+sBPkjc6yJa4BkK3mJhvaTbkoYl/eicu/xPgv1r7C6zZ5YOHaGWZQAAAABJRU5ErkJggg=="
+      /></a>
+    </div>
+    <div class="nav-top">
+      <a href="#"><img src="Images/Logo.png" class="logo" alt="Logo" /></a>
+      <ul class="log">
+        <li class="login">Login</li>
+        <li><button>Sign Up</button></li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="txt-1">
+        <h2>Top Designers:</h2>
+        <div class="line"></div>
+      </div>
+      <div class="grid-box">
+        <div class="card-1 card">
+          <img src="Images/img-1.gif" alt="gif" class="img-1 img" />
+          <img src="Images/1.jpg" alt="DP" class="dp" />
+          <h3 class="h3-1">Smokey Clouds</h3>
+          <p class="p-1">by Alan</p>
+          <a href="#">Contact Seller </a>
+          <img
+            class="heart-1"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABq0lEQVQ4jcWRsWtTURTGv3NuYsEpQ5cXFYT+AfZfKI0EHNyCYxxyH49AJrGgIjxooVCbweIQ7iMIbpKpk7iYqeAiRTNJcXAwU4csBZPce06XNjzi09LJb7pcvt93z3cu8L9Fl4ckSe6KyC6ADQArAA6Zect7T0S0R0QPAfxW1aGIPOv3+z8BgAGg3W7fEZEjVf0iIvdCCGsARiIyZOZPzPw1hLAmIutEdGyMOWq1WrcBoAQA8/l8h5kPnHP7uem61loPAM6517n7V9baEjPvAHhcAgAiehBC2FruN5lM3hT1LpfLb733o8UEAAIz87JxMBiEogDvPV3sCZfQMRFtFpmLRET3VfXzIkBVD1T1RaPRuHEV3Ol0VlT1OYDuIiDLsg8ATiqVyv6/YACYTqddAN+zLPuYrwBjTJOI6nEcP/kbHMfxUwC12WzWXNTJG5IkuSUiQwCDarX6Mk1TAYA0TXk8Hm8DaDDzRq/X+1UYcPHKKhG9V9UzY0wTAETkHYCbqvrIOXea9//xdc650yiK6gB+hBC+hRBGqnoSRVF9Gb5S1tqatbZ2Lei6OgcpwbAdK573QwAAAABJRU5ErkJggg=="
+          />
+          <span class="likes">190</span>
+        </div>
+        <div class="card-2 card">
+          <img src="Images/img-2.jpg" alt="gif" class="img-2 img" />
+          <img src="Images/2.jpg" alt="DP" class="dp" />
+          <h3 class="h3-2">Sprinkled Colors</h3>
+          <p class="p-2">by Robert</p>
+          <a href="#">Contact Seller </a>
+          <img
+            class="heart-2"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABq0lEQVQ4jcWRsWtTURTGv3NuYsEpQ5cXFYT+AfZfKI0EHNyCYxxyH49AJrGgIjxooVCbweIQ7iMIbpKpk7iYqeAiRTNJcXAwU4csBZPce06XNjzi09LJb7pcvt93z3cu8L9Fl4ckSe6KyC6ADQArAA6Zect7T0S0R0QPAfxW1aGIPOv3+z8BgAGg3W7fEZEjVf0iIvdCCGsARiIyZOZPzPw1hLAmIutEdGyMOWq1WrcBoAQA8/l8h5kPnHP7uem61loPAM6517n7V9baEjPvAHhcAgAiehBC2FruN5lM3hT1LpfLb733o8UEAAIz87JxMBiEogDvPV3sCZfQMRFtFpmLRET3VfXzIkBVD1T1RaPRuHEV3Ol0VlT1OYDuIiDLsg8ATiqVyv6/YACYTqddAN+zLPuYrwBjTJOI6nEcP/kbHMfxUwC12WzWXNTJG5IkuSUiQwCDarX6Mk1TAYA0TXk8Hm8DaDDzRq/X+1UYcPHKKhG9V9UzY0wTAETkHYCbqvrIOXea9//xdc650yiK6gB+hBC+hRBGqnoSRVF9Gb5S1tqatbZ2Lei6OgcpwbAdK573QwAAAABJRU5ErkJggg=="
+          />
+          <span class="likes">179</span>
+        </div>
+        <div class="card-3 card">
+          <img src="Images/img-3.jpg" alt="gif" class="img-3 img" />
+          <img src="Images/3.jpg" alt="DP" class="dp" />
+          <h3 class="h3-3">Cartoon Grafiti</h3>
+          <p class="p-3">by Maria</p>
+          <a href="#">Contact Seller </a>
+          <img
+            class="heart-3"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABq0lEQVQ4jcWRsWtTURTGv3NuYsEpQ5cXFYT+AfZfKI0EHNyCYxxyH49AJrGgIjxooVCbweIQ7iMIbpKpk7iYqeAiRTNJcXAwU4csBZPce06XNjzi09LJb7pcvt93z3cu8L9Fl4ckSe6KyC6ADQArAA6Zect7T0S0R0QPAfxW1aGIPOv3+z8BgAGg3W7fEZEjVf0iIvdCCGsARiIyZOZPzPw1hLAmIutEdGyMOWq1WrcBoAQA8/l8h5kPnHP7uem61loPAM6517n7V9baEjPvAHhcAgAiehBC2FruN5lM3hT1LpfLb733o8UEAAIz87JxMBiEogDvPV3sCZfQMRFtFpmLRET3VfXzIkBVD1T1RaPRuHEV3Ol0VlT1OYDuIiDLsg8ATiqVyv6/YACYTqddAN+zLPuYrwBjTJOI6nEcP/kbHMfxUwC12WzWXNTJG5IkuSUiQwCDarX6Mk1TAYA0TXk8Hm8DaDDzRq/X+1UYcPHKKhG9V9UzY0wTAETkHYCbqvrIOXea9//xdc650yiK6gB+hBC+hRBGqnoSRVF9Gb5S1tqatbZ2Lei6OgcpwbAdK573QwAAAABJRU5ErkJggg=="
+          />
+          <span class="likes">245</span>
+        </div>
+        <div class="card-4 card">
+          <img src="Images/img-4.jpg" alt="gif" class="img-3 img" />
+          <img src="Images/4.jpg" alt="DP" class="dp" />
+          <h3 class="h3-4">Colored Wall</h3>
+          <p class="p-4">by Daniel</p>
+          <a href="#">Contact Seller </a>
+          <img
+            class="heart-4"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABq0lEQVQ4jcWRsWtTURTGv3NuYsEpQ5cXFYT+AfZfKI0EHNyCYxxyH49AJrGgIjxooVCbweIQ7iMIbpKpk7iYqeAiRTNJcXAwU4csBZPce06XNjzi09LJb7pcvt93z3cu8L9Fl4ckSe6KyC6ADQArAA6Zect7T0S0R0QPAfxW1aGIPOv3+z8BgAGg3W7fEZEjVf0iIvdCCGsARiIyZOZPzPw1hLAmIutEdGyMOWq1WrcBoAQA8/l8h5kPnHP7uem61loPAM6517n7V9baEjPvAHhcAgAiehBC2FruN5lM3hT1LpfLb733o8UEAAIz87JxMBiEogDvPV3sCZfQMRFtFpmLRET3VfXzIkBVD1T1RaPRuHEV3Ol0VlT1OYDuIiDLsg8ATiqVyv6/YACYTqddAN+zLPuYrwBjTJOI6nEcP/kbHMfxUwC12WzWXNTJG5IkuSUiQwCDarX6Mk1TAYA0TXk8Hm8DaDDzRq/X+1UYcPHKKhG9V9UzY0wTAETkHYCbqvrIOXea9//xdc650yiK6gB+hBC+hRBGqnoSRVF9Gb5S1tqatbZ2Lei6OgcpwbAdK573QwAAAABJRU5ErkJggg=="
+          />
+          <span class="likes">340</span>
+        </div>
+        <br />
+        <div class="card-5 card">
+          <img src="Images/img-5.jpg" alt="gif" class="img-3 img" />
+          <img src="Images/5.jpg" alt="DP" class="dp" />
+          <h3 class="h3-5">Abstract Patterns</h3>
+          <p class="p-5">by Linda</p>
+          <a href="#">Contact Seller </a>
+          <img
+            class="heart-5"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABq0lEQVQ4jcWRsWtTURTGv3NuYsEpQ5cXFYT+AfZfKI0EHNyCYxxyH49AJrGgIjxooVCbweIQ7iMIbpKpk7iYqeAiRTNJcXAwU4csBZPce06XNjzi09LJb7pcvt93z3cu8L9Fl4ckSe6KyC6ADQArAA6Zect7T0S0R0QPAfxW1aGIPOv3+z8BgAGg3W7fEZEjVf0iIvdCCGsARiIyZOZPzPw1hLAmIutEdGyMOWq1WrcBoAQA8/l8h5kPnHP7uem61loPAM6517n7V9baEjPvAHhcAgAiehBC2FruN5lM3hT1LpfLb733o8UEAAIz87JxMBiEogDvPV3sCZfQMRFtFpmLRET3VfXzIkBVD1T1RaPRuHEV3Ol0VlT1OYDuIiDLsg8ATiqVyv6/YACYTqddAN+zLPuYrwBjTJOI6nEcP/kbHMfxUwC12WzWXNTJG5IkuSUiQwCDarX6Mk1TAYA0TXk8Hm8DaDDzRq/X+1UYcPHKKhG9V9UzY0wTAETkHYCbqvrIOXea9//xdc650yiK6gB+hBC+hRBGqnoSRVF9Gb5S1tqatbZ2Lei6OgcpwbAdK573QwAAAABJRU5ErkJggg=="
+          />
+          <span class="likes">528</span>
+        </div>
+      </div>
+    </div>
+    <div id="myOverlay" class="overlay">
+      <span class="closebtn" onclick="closeSearch()" title="Close Overlay"
+        >×</span
+      >
+      <div class="overlay-content">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
